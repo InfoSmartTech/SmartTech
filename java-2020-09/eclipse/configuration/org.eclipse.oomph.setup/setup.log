@@ -1,0 +1,32 @@
+[2020-11-28 19:17:45] Executing bootstrap tasks
+[2020-11-28 19:17:45] OpenJDK Runtime Environment 14.0.2+12-46
+[2020-11-28 19:17:45] Product org.eclipse.products.epp.package.java.2020-09
+[2020-11-28 19:17:45] Bundle org.eclipse.oomph.setup 1.18.0.v20200820-0414, build=4828, branch=33d843c1d70f55bcaaf6421eb3af77b98e9fe9c0
+[2020-11-28 19:17:45] Bundle org.eclipse.oomph.setup.core 1.18.0.v20200624-1156, build=4828, branch=33d843c1d70f55bcaaf6421eb3af77b98e9fe9c0
+[2020-11-28 19:17:45] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4828, branch=33d843c1d70f55bcaaf6421eb3af77b98e9fe9c0
+[2020-11-28 19:17:45] Performing P2 Director (Eclipse IDE for Java Developers (2020-09) + JRE 14.0.2)
+[2020-11-28 19:17:45] Offline = false
+[2020-11-28 19:17:45] Mirrors = true
+[2020-11-28 19:17:45] Resolving 17 requirements from 4 repositoriesto C:\Users\Botir\eclipse\java-2020-09\eclipse
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.17.0,5.0.0)
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.17.0,5.0.0)
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.17.0,5.0.0)
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2020-11-28 19:17:45] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2020-11-28 19:17:45] Repository http://download.eclipse.org/justj/jres/14/updates/release/14.0.2
+[2020-11-28 19:17:45] Repository http://download.eclipse.org/technology/epp/packages/2020-09/202009101200
+[2020-11-28 19:17:45] Repository http://download.eclipse.org/releases/2020-09/202009161000
+[2020-11-28 19:17:45] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2020-11-28 19:17:48] 
