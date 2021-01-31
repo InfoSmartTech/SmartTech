@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.07.11" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:21:58.900">
+    <property name="length">00:21:58.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:21:58.900"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:01:28.183">
+    <property name="length">00:01:28.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/MVI_3296.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-03-30T18:50:06</property>
+    <property name="shotcut:hash">f418db38a942c92601a9caae04293f84</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">MVI_3296.MP4</property>
+    <filter id="filter0" in="00:00:09.200" out="00:01:22.533">
+      <property name="start">1</property>
+      <property name="level">00:01:13.033=1;00:01:13.333=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">19</property>
+    </filter>
+    <filter id="filter1" in="00:00:09.200" out="00:01:22.533">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:01:13.033=0;00:01:13.333=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">19</property>
+    </filter>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:00:08.300">
+    <property name="length">00:00:08.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/Reklama.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-16T00:10:21</property>
+    <property name="shotcut:hash">432b24efb9e52268c1617f1f92e71ab3</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">Reklama.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:00:08.300">
+      <property name="start">1</property>
+      <property name="level">00:00:07.983=1;00:00:08.300=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:00.333</property>
+    </filter>
+    <filter id="filter3" out="00:00:08.300">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:07.983=0;00:00:08.300=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">20</property>
+    </filter>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:01:45.683">
+    <property name="length">00:01:45.700</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/2021-01-30 14-50-19.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-01-30T20:52:05</property>
+    <property name="shotcut:hash">0fe2c79f421cf372969eb7e3a1edead9</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">2021-01-30 14-50-19.mkv</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="00:12:58.350">
+    <property name="length">00:12:58.367</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/2021-01-30 14-52-17.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-01-30T21:05:15</property>
+    <property name="shotcut:hash">7d33778bc45f2fc63f268ff3e2355d60</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">2021-01-30 14-52-17.mkv</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:05:13.350">
+    <property name="length">00:05:13.367</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/2021-01-30 15-09-13.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-01-30T21:14:27</property>
+    <property name="shotcut:hash">06f16fed8816e407285ba1c08aa452ec</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">2021-01-30 15-09-13.mkv</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:01:08.667">
+    <property name="length">00:01:08.683</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/MVI_3298.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-03-30T18:52:18</property>
+    <property name="shotcut:hash">03ec93483cddfbde7a8112fb02c7d9f4</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">MVI_3298.MP4</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/Logo.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-01-09T00:45:30</property>
+    <property name="shotcut:hash">7c7a09cfb97367c493864f94063fb38a</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">Logo.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:09.200" out="00:01:22.533"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:08.300"/>
+    <entry producer="producer2" in="00:00:08.317" out="00:01:42.267"/>
+    <entry producer="producer3" in="00:00:15.083" out="00:12:51.367"/>
+    <entry producer="producer4" in="00:00:04.050" out="00:05:08.500"/>
+    <entry producer="producer5" in="00:00:07.067" out="00:01:04.283"/>
+    <entry producer="producer6" in="00:00:09.350" out="00:00:34.617"/>
+  </playlist>
+  <producer id="producer7" in="00:00:00.000" out="00:01:01.667">
+    <property name="length">00:01:01.683</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/backmusic.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-09-16T01:12:05</property>
+    <property name="shotcut:hash">cfcbe8e5558cad468b519e5d7929e8ee</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">backmusic.mp3</property>
+    <filter id="filter4" out="00:01:01.667">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-25</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="00:01:01.667">
+    <property name="length">00:01:01.683</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/backmusic.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-09-16T01:12:05</property>
+    <property name="shotcut:hash">cfcbe8e5558cad468b519e5d7929e8ee</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">backmusic.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter5" out="00:00:11.650">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-25</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="00:01:01.667">
+    <property name="length">00:01:01.683</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/backmusic.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-09-16T01:12:05</property>
+    <property name="shotcut:hash">cfcbe8e5558cad468b519e5d7929e8ee</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">backmusic.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" out="00:00:57.217">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-25</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:01:01.667">
+    <property name="length">00:01:01.683</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/backmusic.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-09-16T01:12:05</property>
+    <property name="shotcut:hash">cfcbe8e5558cad468b519e5d7929e8ee</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">backmusic.mp3</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer7" in="00:00:00.000" out="00:01:01.667"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:11.650"/>
+    <blank length="00:19:23.050"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:57.217"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:25.267"/>
+  </playlist>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/media_icon.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-16T13:54:08</property>
+    <property name="shotcut:hash">5417cfa322d91e00279646f0b3871d4c</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">media_icon.png</property>
+    <filter id="filter7" out="00:00:03.983">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.233=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:00.250</property>
+    </filter>
+    <filter id="filter8" out="00:00:03.983">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.233=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">15</property>
+    </filter>
+    <filter id="filter9" out="00:00:03.983">
+      <property name="start">1</property>
+      <property name="level">00:00:03.783=1;00:00:03.983=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">13</property>
+    </filter>
+    <filter id="filter10" out="00:00:03.983">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineRotate</property>
+      <property name="transition.invert_scale">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="transition.scale_x">0.441</property>
+      <property name="transition.scale_y">0.441</property>
+      <property name="transition.ox">-1154</property>
+      <property name="transition.oy">-714</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter11" out="00:00:03.983">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:03.783=0;00:00:03.983=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">13</property>
+    </filter>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:01.900"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:03.983"/>
+  </playlist>
+  <producer id="producer12" in="00:00:00.000" out="00:00:01.500">
+    <property name="length">00:00:01.517</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/icon_alert.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-09T19:19:00</property>
+    <property name="shotcut:hash">e3440a6ba499c4360235eaf6c0f7f2a1</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">icon_alert.mp4</property>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="00:00:01.500">
+    <property name="length">00:00:01.517</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/icon_alert.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-09T19:19:00</property>
+    <property name="shotcut:hash">e3440a6ba499c4360235eaf6c0f7f2a1</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">icon_alert.mp4</property>
+  </producer>
+  <playlist id="playlist3">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <blank length="00:00:01.500"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:01.500"/>
+    <blank length="00:00:02.233"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:01.500"/>
+  </playlist>
+  <producer id="producer14" in="00:00:00.000" out="00:00:07.983">
+    <property name="length">00:00:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/Subscribe Button + Notification Bell - CB (Green Screen).mp4</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2018-09-25T09:28:54</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:hash">0455556f2679d16a2cacc9c2f798451f</property>
+    <property name="shotcut:caption">Subscribe Button + Notification Bell - CB (Green Screen).mp4</property>
+    <filter id="filter12" out="00:00:07.983">
+      <property name="version">0.3</property>
+      <property name="mlt_service">frei0r.bluescreen0r</property>
+      <property name="0">#00ef00</property>
+      <property name="1">0.288</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter13" out="00:00:07.983">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineRotate</property>
+      <property name="transition.invert_scale">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="transition.scale_x">0.441</property>
+      <property name="transition.scale_y">0.441</property>
+      <property name="transition.ox">-1374</property>
+      <property name="transition.oy">-989</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="00:00:07.983">
+    <property name="length">00:00:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Botir/Desktop/Docs/Youtube Channel/Details/Subscribe Button + Notification Bell - CB (Green Screen).mp4</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2018-09-25T09:28:54</property>
+    <property name="shotcut:hash">0455556f2679d16a2cacc9c2f798451f</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">Subscribe Button + Notification Bell - CB (Green Screen).mp4</property>
+    <filter id="filter14" out="00:00:07.983">
+      <property name="version">0.3</property>
+      <property name="mlt_service">frei0r.bluescreen0r</property>
+      <property name="0">#00ef00</property>
+      <property name="1">0.288</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter15" out="00:00:07.983">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineRotate</property>
+      <property name="transition.invert_scale">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="transition.scale_x">0.331</property>
+      <property name="transition.scale_y">0.331</property>
+      <property name="transition.ox">-1978</property>
+      <property name="transition.oy">-1429</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist4">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <blank length="00:20:12.667"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:07.983"/>
+    <blank length="00:01:02.883"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:07.983"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 20.07.11" global_feed="1" in="00:00:00.000" out="00:21:58.900">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">1</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">0.546377</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2" hide="audio"/>
+    <track producer="playlist3" hide="video"/>
+    <track producer="playlist4"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">1</property>
+      <property name="b_track">5</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
