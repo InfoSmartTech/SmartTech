@@ -1,2 +1,2 @@
-## Smart TECH
+# SMART TECH
 SMART TECH Resources
