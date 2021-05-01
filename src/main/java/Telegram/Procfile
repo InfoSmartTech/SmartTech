@@ -1,0 +1,1 @@
+telegram: java -jar src/main/java/Telegram//TelegramBot-1.0.0.jar
