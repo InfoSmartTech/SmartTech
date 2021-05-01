@@ -1,2 +1,1 @@
-cd  src/main/java/Telegram
-java -jar TelegramBot.jar
+web: java -jar src/main/java/Telegram/TelegramBot.jar
