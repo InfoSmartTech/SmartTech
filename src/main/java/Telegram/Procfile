@@ -1,1 +1,1 @@
-web: java -jar src/main/java/Telegram/TelegramBot.jar
+java -jar src/main/java/Telegram/TelegramBot.jar
