@@ -2,6 +2,6 @@
 
 ### Yozilgan Code-larni Yuklab Olish Uchun "Branch" Tanlang!
 
-[Images] (/SmartTech/master/Images/Draw.png)
+![Images](https://github.com/InfoSmartTech/SmartTech/blob/master/Images/Draw.png)
 
 SmartTech Resources
