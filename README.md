@@ -1,7 +1,7 @@
    # Welcome to SMART TECH
 
-### Yozilgan code larni yuklab olish uchun 'branch' ni tanlang!
+### Yozilgan Code-larni Yuklab Olish Uchun "Branch" Tanlang!
 
-[Images](https://github.com/InfoSmartTech/SmartTech/blob/master/Images/Draw.png)
+[Images] (https://github.com/InfoSmartTech/SmartTech/blob/master/Images/Draw.png)
 
 SmartTech Resources
